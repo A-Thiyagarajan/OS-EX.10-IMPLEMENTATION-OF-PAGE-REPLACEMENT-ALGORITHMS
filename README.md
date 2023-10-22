@@ -11,7 +11,7 @@
 3. Get the number of available page frames from the user.
 4. In FIFO, on the basics of first in first out, replace the pages respectively, then
 find number of page faults occurred.
-5. Compare all frames with incoming page6. If the incoming page is already available in page frame, set the match flag to
+5. Compare all frames with incoming page 6. If the incoming page is already available in page frame, set the match flag to
 indicate ‘no need of page replacement’.
 7. If the incoming page is not available in all frames, then remove the page
 which is loaded into the memory long back and give space for new incoming
@@ -60,7 +60,8 @@ int main()
 }
 ```
 ## OUTPUT:
-![](./output/fifo.png)
+
+![101](https://github.com/A-Thiyagarajan/OS-EX.10-IMPLEMENTATION-OF-PAGE-REPLACEMENT-ALGORITHMS/assets/118707693/7bdcf42e-dc4b-4786-891a-a3819531c78e)
 
 ## RESULT:
 
@@ -147,8 +148,8 @@ int main() {
 }
 ```
 ## OUTPUT:
+![102](https://github.com/A-Thiyagarajan/OS-EX.10-IMPLEMENTATION-OF-PAGE-REPLACEMENT-ALGORITHMS/assets/118707693/6468d444-3fe8-46e3-9e7f-1d3928a86290)
 
-![](./output/opr.png)
 
 ## RESULT:
   Thus the implementation of OPR page replacement is successfully executed.
